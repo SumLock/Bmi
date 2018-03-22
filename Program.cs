@@ -20,31 +20,33 @@ namespace Bmi
             if (BMI < 16.5)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 不只體重過輕還不用當兵...");
+                Console.ReadLine();
             }
             if (16.5 <= BMI && BMI < 18.5)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 體重過輕喔...");
+                Console.ReadLine();
             }
             if (18.5 <= BMI && BMI < 24)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 您的體重正常喔");
+                Console.ReadLine();
             }
             if (24 <= BMI && BMI < 28)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 您的體重超重喔...");
+                Console.ReadLine();
             }
             if (28 <= BMI && BMI <= 31.5)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 您是肥宅吧?");
+                Console.ReadLine();
             }
             if (BMI > 31.5)
             {
                 Console.WriteLine("您的BMI為: " + BMI + ", 你不只肥宅還免役不用當兵");
+                Console.ReadLine();
             }
-
-            Console.ReadLine();
-
-
         }
     }
 }
